@@ -1,5 +1,5 @@
 import React from 'react';
-import 'C:/Users/lenovo/my-app/src/components/Navbar/aboutus.css';
+import './aboutus.css';
 import {
   imgg,
   NavBtnLinkk,
@@ -15,11 +15,11 @@ const About_us = () => {
      <section style={{  paddingLeft:"400px",}} class="wrapper">
   <h2> Made for
   <div class="dynamic-words">
-    <span>Joy</span>
-    <span>Love</span>
-    <span>Fitness</span>
-    <span>Peace</span>
-    <span>You</span>
+    <span className='dynamic-word'>Joy</span>
+    <span className='dynamic-word'>Love</span>
+    <span className='dynamic-word'>Fitness</span>
+    <span className='dynamic-word'>Peace</span>
+    <span className='dynamic-word'>You</span>
    </div>
   </h2>
 </section>

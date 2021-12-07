@@ -26,6 +26,9 @@ const Navbar = () => {
             <NavLink to='/page2' activeStyle>
                Destination
             </NavLink>
+            <NavLink to='/products' activeStyle>
+               Products
+            </NavLink>
             
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}

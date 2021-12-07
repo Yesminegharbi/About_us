@@ -17,7 +17,7 @@ body{
     background-size: cover;
     margin: 0;
   }
-span {
+.dynamic-word {
   position: absolute;
 	opacity: 0;
 	overflow: hidden;
