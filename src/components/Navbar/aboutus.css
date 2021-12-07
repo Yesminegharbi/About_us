@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.wrapper {
+  padding-top:150px;
+  padding-right:0px;
+  font-size: 5rem;
+  font-family:"cherolina";
+  color:white;
+}
+body{
+  margin:0;
+}
+.back{
+    background-image:url('https://i.pinimg.com/originals/22/ab/ef/22abef9a991e519036a72fc2922d094a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  }
+span {
+  position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	width: 100%;
+    
+}
+
+.dynamic-words {
+  display: inline;
+	text-indent:12px;
+}
+.dynamic-words span {
+	animation: wordsScroll 13s ease-in infinite;
+  width: 300px;
+}
+.dynamic-words span:nth-child(1) { 
+	animation-delay: 3s;
+}
+.dynamic-words span:nth-child(2) { 
+	animation-delay: 5.5s;
+}
+.dynamic-words span:nth-child(3) { 
+	animation-delay: 8s;
+}
+.dynamic-words span:nth-child(4) { 
+	animation-delay: 10.5s;
+}
+.dynamic-words span:nth-child(5) { 
+	animation-delay: 13s;
+}
+@keyframes wordsScroll {
+    0% { opacity: 0; transform: translateY(10%); }
+    10% { transform: translateY(0%) }
+    20% { opacity: 1; transform: translateY(0%) }
+    24% { transform: translateY(-10%) }
+    26% { opacity: 0; }
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  border-radius:100px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  border-radius:100px;
+
+  background-color: #9a8c98;
+  opacity:0.7;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  font-family:poppins;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
