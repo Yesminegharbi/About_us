@@ -41,7 +41,9 @@ class ImageGallaryComponent extends React.Component {
 
     render() {
         return (
-          <div>
+          <div className='Products'>
+            <br/>
+            <br/>
             <br/>
             <div className='shopping' >
             <div>
