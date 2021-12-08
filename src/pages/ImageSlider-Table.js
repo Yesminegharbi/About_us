@@ -2,10 +2,13 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import './ImageSlider.css'
-import tente1 from '../assets/products/tentes/tente-camping-trigano-bilbao-2-places1.jpg'
-import tente2 from '../assets/products/tentes/tente-camping-trigano-bilbao-2-places2.jpg'
-import tente3 from '../assets/products/tentes/tente-camping-trigano-bilbao-2-places3.jpg'
-import tente4 from '../assets/products/tentes/tente-camping-trigano-bilbao-2-places4.jpg'
+
+import table1 from '../assets/products/table/table-de-camping-pliante-4-tabourets-4-a-6-personnes (1).jpg'
+import table2 from '../assets/products/table/table-de-camping-pliante-4-tabourets-4-a-6-personnes (2).jpg'
+import table3 from '../assets/products/table/table-de-camping-pliante-4-tabourets-4-a-6-personnes (3).jpg'
+import table4 from '../assets/products/table/table-de-camping-pliante-4-tabourets-4-a-6-personnes (4).jpg'
+import table5 from '../assets/products/table/table-de-camping-pliante-4-tabourets-4-a-6-personnes.jpg'
+
 import { QuantityPicker } from 'react-qty-picker';
 import yesmine from '../assets/products/people/yesmine.jpg'
 import imen from '../assets/products/people/imen.jpg'
@@ -13,7 +16,7 @@ import ibrahim from '../assets/products/people/ibrahim.jpg'
 import matelas from '../assets/products/matelas.jpg'
 import sac from '../assets/products/saccamping.jpg'
 import {AiFillStar, FaBeer} from 'react-icons/fa'
-class ImageGallaryComponentTente extends React.Component {
+class ImageGallaryComponentTable extends React.Component {
 
     onChangeEvent = () => {
         console.log('onChange Event Triggered');
@@ -61,25 +64,29 @@ class ImageGallaryComponentTente extends React.Component {
                     
                 >
                     <div >
-                        <img src={tente1} />
+                        <img src={table1} />
                     </div>
                     <div>
-                        <img src={tente2} />
+                        <img src={table2} />
                       
                     </div>
                     <div>
-                        <img src={tente3} />
+                        <img src={table3} />
 
                     </div>
                     <div>
-                        <img src={tente4} />
+                        <img src={table4} />
+                        
+                    </div>
+                    <div>
+                        <img src={table5} />
                         
                     </div>
                 </Carousel>
                 </div>
                 </div>
                 <div className='buy-pannel'>
-                    <h3 className='title'>tente à 2 personnes </h3>
+                    <h3 className='title'>Camping Table </h3>
                     <div className='QuantityPicker'>
                     <QuantityPicker min={0} />
                     </div>
@@ -162,4 +169,4 @@ class ImageGallaryComponentTente extends React.Component {
     };
 }
 
-export default ImageGallaryComponentTente;
+export default ImageGallaryComponentTable;

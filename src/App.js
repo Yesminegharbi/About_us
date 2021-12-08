@@ -10,7 +10,13 @@ import SignUp from './pages/signup';
 import Footer from './components/Navbar/footer';
 import react from 'react';
 import React, { Component } from 'react';
-import ImageGallaryComponent from './pages/ImageSlider-tente';
+import ImageGallaryComponentTente from './pages/ImageSlider-tente';
+import ImageSlider from 'react-simple-image-slider';
+import ImageGallaryComponentSac from './pages/imageSlider-Sac';
+import ImageGallaryComponentPad from './pages/ImageSlider-Matelas';
+import ImageGallaryComponentChair from './pages/ImageSliderChair';
+import ImageGallaryComponentTable from './pages/ImageSlider-Table';
+
 function App() {
     return (
       <>
@@ -25,8 +31,12 @@ function App() {
           <Route path='/Login' component={Login} />
           <Route path='/page2' component={Destinations} />
           <Route path='/sign-up' component={SignUp} />
+          <Route path='/camping-tent' component={ImageGallaryComponentTente}/>
+          <Route path='/camping-bag' component={ImageGallaryComponentSac}/>
+          <Route path='/camping-pad' component={ImageGallaryComponentPad}/>
+          <Route path='/camping-chair' component={ImageGallaryComponentChair}/>
+          <Route path='/camping-table' component={ImageGallaryComponentTable}/>
 
-          
 
           </div>
         </Switch>
