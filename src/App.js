@@ -10,7 +10,7 @@ import SignUp from './pages/signup';
 import Footer from './components/Navbar/footer';
 import react from 'react';
 import React, { Component } from 'react';
-import ImageGallaryComponent from './pages/ImageSlider';
+import ImageGallaryComponent from './pages/ImageSlider-tente';
 function App() {
     return (
       <>
@@ -25,7 +25,6 @@ function App() {
           <Route path='/Login' component={Login} />
           <Route path='/page2' component={Destinations} />
           <Route path='/sign-up' component={SignUp} />
-          <Route path='/products' component={ImageGallaryComponent} />
 
           
 
