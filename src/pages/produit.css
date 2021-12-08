@@ -1,21 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 .produit-slider{
-    background-color: rgba(128, 128, 128, 0.329);
+    size:100%;
+    background-color: rgba(154,140, 152, 0.25);
 }
 .produit-slider-item
 {   
+    size: 100%;
     border-radius: 25%;
+    font-family:"poppins";
+
 }
 .produit-item-link{
+    font-family:"poppins";
     text-decoration: none;
-    color: black;
+    color: #363852;
     font-size: larger;
     font-weight: bolder;
 }
 .produit-item-link:hover{
+    font-family:"poppins";
     text-decoration: none;
     color: black;
 }
 .produit-item-title
 {
-text-align: center;
+    font-family:"poppins";
+    text-align: center;
+
 }

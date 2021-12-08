@@ -21,7 +21,7 @@ export const Nav = styled.nav`
 export const NavLink = styled(Link)`
   color: #ffffff;
   align-items: center;
-  margin-left:130px;
+  margin-left:50px;
   display: flex;
   font-family: 'Poppins';
   text-decoration: none;
