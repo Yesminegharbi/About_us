@@ -12,7 +12,7 @@ const images = [
 
   const Home=()=>{
     return(
-    <div>
+    <div style={{width:"auto"}}>
 
         <div className='menu-slider'>
       <SimpleImageSlider

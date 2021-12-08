@@ -41,10 +41,8 @@ class ImageGallaryComponent extends React.Component {
 
     render() {
         return (
-          <div className='Products'>
-            <br/>
-            <br/>
-            <br/>
+          <div style={{paddingTop:"50px",paddingLeft:"15%"}}className='Products'>
+            
             <div className='shopping' >
             <div>
             <div className='column'>
@@ -78,12 +76,12 @@ class ImageGallaryComponent extends React.Component {
                 </Carousel>
                 </div>
                 </div>
-                <div className='buy-pannel'>
-                    <h3 className='title'>tente à 2 personnes </h3>
-                    <div className='QuantityPicker'>
+                <div style={{paddingTop:"150px"}} className='buy-pannel'>
+                    <h3 style={{textAlign:"center"}} className='title'>Tent for 2 peoples </h3>
+                    <div style={{textAlign:"center",paddingTop:'10px'}} className='QuantityPicker'>
                     <QuantityPicker min={0} />
                     </div>
-                    <div class="button">
+                    <div style={{textAlign:"center"}} class="button">
                     <a >Acheter Maintenant</a>
                     </div>
                     </div>
@@ -95,7 +93,7 @@ class ImageGallaryComponent extends React.Component {
 
                 <ul className='ratings-section'>
                     <li className='people'>
-                        <h3>Imen</h3>
+                        <h3 style={{textAlign:"center"}}>Imen Azzouz</h3>
                         <div className='image-and-rating'>
                         <img className='avatar' src={imen} width='100px' height='100px'/>
                         <p>trés dilicieuse</p>
@@ -108,7 +106,7 @@ class ImageGallaryComponent extends React.Component {
 
                     </li>
                     <li className='people'>
-                        <h3>Yesmine</h3>
+                        <h3 style={{textAlign:"center"}}>Yesmine Gharbi</h3>
                         <div className='image-and-rating'>
 
                         <img  className='avatar' src={yesmine} width='100px' height='100px'/>
@@ -121,7 +119,7 @@ class ImageGallaryComponent extends React.Component {
                         <span class="fa fa-star checked"></span>
                     </li>
                     <li className='people'>
-                        <h3>Ibrahim</h3>
+                        <h3 style={{textAlign:"center"}}>Ibrahim Khemiri</h3>
                         <div className='image-and-rating'>
 
                         <img className='avatar' src={ibrahim} width='100px' height='100px'/>
@@ -146,18 +144,21 @@ class ImageGallaryComponent extends React.Component {
                     <li className='item'>
                         <a href=''>
                         <img src={sac} width='200px' height='200px'/>
-                        <p>Sac camping</p>
+                        <p style={{textAlign:"center"}}>Sac camping</p>
                         </a>
                     </li>
                     <li className='item'>
                         <a>
                         <img src={matelas} width='200px' height='200px'/>
-                        <p>matelas camping</p>
+                        <p style={{textAlign:"center"}}>matelas camping</p>
                         </a>
                     </li>
                 </ul>
             </div>
+            <br/><br/><br/>
+
             </div>
+            
         )
     };
 }
