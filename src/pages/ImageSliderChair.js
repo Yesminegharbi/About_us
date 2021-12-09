@@ -84,13 +84,13 @@ class ImageGallaryComponentChair extends React.Component {
                 </Carousel>
                 </div>
                 </div>
-                <div className='buy-pannel'>
-                    <h3 className='title'>Camping Chair </h3>
-                    <div className='QuantityPicker'>
+                <div style={{paddingTop:"50px",paddingLeft:"15%"}} className='buy-pannel'>
+                    <h3 style={{textAlign:"center"}} className='title'>Camping Chair </h3>
+                    <div style={{textAlign:"center"}}  className='QuantityPicker'>
                     <QuantityPicker min={0} />
                     </div>
                     <div class="button">
-                    <a>Acheter Maintenant</a>
+                    <a style={{textAlign:"center"}} >Acheter Maintenant</a>
                     </div>
                     </div>
             </div>
@@ -101,7 +101,7 @@ class ImageGallaryComponentChair extends React.Component {
 
                 <ul className='ratings-section'>
                     <li className='people'>
-                        <h3>Imen</h3>
+                        <h3 style={{textAlign:"center"}} >Imen</h3>
                         <div className='image-and-rating'>
                         <img className='avatar' src={imen} width='100px' height='100px'/>
                         <p>trés dilicieuse</p>
@@ -114,7 +114,7 @@ class ImageGallaryComponentChair extends React.Component {
 
                     </li>
                     <li className='people'>
-                        <h3>Yesmine</h3>
+                        <h3 style={{textAlign:"center"}} >Yesmine</h3>
                         <div className='image-and-rating'>
 
                         <img  className='avatar' src={yesmine} width='100px' height='100px'/>
@@ -127,7 +127,7 @@ class ImageGallaryComponentChair extends React.Component {
                         <span class="fa fa-star checked"></span>
                     </li>
                     <li className='people'>
-                        <h3>Ibrahim</h3>
+                        <h3 style={{textAlign:"center"}} >Ibrahim</h3>
                         <div className='image-and-rating'>
 
                         <img className='avatar' src={ibrahim} width='100px' height='100px'/>
@@ -152,13 +152,13 @@ class ImageGallaryComponentChair extends React.Component {
                     <li className='item'>
                         <a href='camping-bag'>
                         <img src={sac} width='200px' height='200px'/>
-                        <p>Sac camping</p>
+                        <p style={{textAlign:"center"}} >Sac camping</p>
                         </a>
                     </li>
                     <li className='item'>
                         <a href='camping-pad'>
                         <img src={matelas} width='200px' height='200px'/>
-                        <p>matelas camping</p>
+                        <p style={{textAlign:"center"}} >matelas camping</p>
                         </a>
                     </li>
                 </ul>

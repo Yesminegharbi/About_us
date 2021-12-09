@@ -2,7 +2,7 @@
 
 .produit-slider{
     size:100%;
-    background-color: rgba(154,140, 152, 0.25);
+    background-color: rgba(151,183, 176, 0.25);
 }
 .produit-slider-item
 {   
@@ -14,7 +14,7 @@
 .produit-item-link{
     font-family:"poppins";
     text-decoration: none;
-    color: #363852;
+    color: #021d20;
     font-size: larger;
     font-weight: bolder;
 }

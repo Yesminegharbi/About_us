@@ -39,7 +39,7 @@ import {
             </Column>
           </Row>
           <br/>
-          <p style={{fontFamily: 'Poppins',fontSize:'13px',color:"#a48b90",textAlign:"center"}}>&copy; 2021 website developed by Campy team</p>
+          <p style={{fontFamily: 'Poppins',fontSize:'13px',color:"#021d20",opacity:"0.7",textAlign:"center"}}>&copy; 2021 website developed by Campy team</p>
       </Box>
     );
   };

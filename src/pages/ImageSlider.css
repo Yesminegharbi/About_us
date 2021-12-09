@@ -1,134 +1,136 @@
 .Products{
 
-margin-top: 60px;
-}
-.button {
-    background-color:#4a4e69;
-    border: none;
-    opacity: 0.7;
-    font-family: poppins;
-    color: white;
-    padding: 15px 140px;
-    text-align: center;
-    align-self: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    bottom: 10rem;
-    position: relative;   
+  margin-top: 60px;
   }
-  .buy-pannel{
+  .button {
+      background-color:#5c9ca4;
+      border: none;
+      opacity: 0.7;
 
-      left: 50%;
-      position: absolute;
-      top: 50%;
-  }
-  .buy-pannel:hover{
-    cursor: pointer;
-    
-}
-  .title
-  {
-    color:#363852;
-    position: relative;
-    left: 0rem;
-    font-family: poppins;
-    bottom: 15em;
-    
-  }
-  .QuantityPicker
-  {
-      position: relative;
-      left: 1rem;
       font-family: poppins;
-      bottom: 20rem;
-  }
-  .title{
-    display: block;
-    font-size: 1.5rem;
-    margin-top: 3em;
-    margin-bottom: 0.83em;
-    font-family: poppins;
-    font-weight: bold;
-  }
-
- 
-
-.ratings {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
-  color:#363852;
-  font-family: poppins;
-
-
-}
-
-.ratings-section {
-  font-family: poppins;
-
-	min-width: 696px;
-	list-style: none;
-	padding-top: 20px;
-	}
-.ratings-section li {
-		display: inline-block;
-        margin-right: 15rem;
-        
-	}
-.checked {
-        color: orange;
-      }
-.avatar{
-    border-radius: 50%;
+      color: white;
+      margin-left: 25px;
+      padding: 15px 140px;
+      text-align: center;
+      align-self: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      bottom: 10rem;
+      position: relative;   
     }
-.ratings-title{
-        font-weight: bold;
-        font-family: poppins;
-
+    .buy-pannel{
+  
+        left: 50%;
+        position: absolute;
+        top: 50%;
     }
-
-.image-and-rating > *
-    {
-        display: inline-block;
-    }
-    .other-products {
-        display: table;   /* Allow the centering to work */
-        margin: 0 auto;
-    }
-    
-    .other-products-items {
-      font-family: poppins;
-        min-width: 696px;
-        list-style: none;
-        padding-top: 20px;
-        }
-    .other-products-items li {
-            display: inline-block;
-            font-family: poppins;
-            color:#363852;
-            margin-right: 15rem;
-        }
-        .other-products-items li:hover{
-          cursor: pointer;
-          border: 2px solid #4a4e69;
-          
-          opacity: 0.8;
-          filter: alpha(opacity=80)
-        }
-        .other-products-items a{
-          text-decoration: none;
-          font-family: poppins;
-
-        }
-    
-        .image-and-rating:hover{
-      
-     
-    }
-    .avatar:hover
-    { 
-      font-family: poppins;
+    .buy-pannel:hover{
       cursor: pointer;
-      background: #e1e1e1;
-      border-top: 1px solid #d0d0d0;
+      
+  }
+    .title
+    {
+      color:#021d20;
+      position: relative;
+      left: 0rem;
+      font-family: poppins;
+      bottom: 15em;
+      
     }
+    .QuantityPicker
+    {
+        position: relative;
+        left: 1rem;
+        font-family: poppins;
+        bottom: 20rem;
+    }
+    .title{
+      display: block;
+      font-size: 1.5rem;
+      margin-top: 3em;
+      margin-bottom: 0.83em;
+      font-family: poppins;
+      font-weight: bold;
+    }
+  
+   
+  
+  .ratings {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+    color:#021d20;
+    font-family: poppins;
+  
+  
+  }
+  
+  .ratings-section {
+    font-family: poppins;
+  
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+    }
+  .ratings-section li {
+      display: inline-block;
+          margin-right: 15rem;
+          
+    }
+  .checked {
+          color: orange;
+        }
+  .avatar{
+      border-radius: 50%;
+      }
+  .ratings-title{
+          font-weight: bold;
+          font-family: poppins;
+  
+      }
+  
+  .image-and-rating > *
+      {
+          display: inline-block;
+      }
+      .other-products {
+          display: table;   /* Allow the centering to work */
+          margin: 0 auto;
+      }
+      
+      .other-products-items {
+        font-family: poppins;
+          min-width: 696px;
+          list-style: none;
+          padding-top: 20px;
+          }
+      .other-products-items li {
+              display: inline-block;
+              font-family: poppins;
+              color:#021d20;
+              margin-right: 15rem;
+          }
+          .other-products-items li:hover{
+            cursor: pointer;
+            border: 2px solid #021d20;
+            
+            opacity: 0.8;
+            filter: alpha(opacity=80)
+          }
+          .other-products-items a{
+            text-decoration: none;
+            font-family: poppins;
+  
+          }
+      
+          .image-and-rating:hover{
+        
+       
+      }
+      .avatar:hover
+      { 
+        font-family: poppins;
+        cursor: pointer;
+        background: #e1e1e1;
+        border-top: 1px solid #d0d0d0;
+      }

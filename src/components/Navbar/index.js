@@ -26,12 +26,6 @@ const Navbar = () => {
             <NavLink to='/page2' activeStyle>
                Destination
             </NavLink>
-            <NavLink to='/products' activeStyle>
-               Products
-            </NavLink>
-            
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
         <div style={{marginLeft:"90px",marginTop:"30px"}} > 
         <NavBtnLink to='/Login' >Login</NavBtnLink>
