@@ -28,7 +28,7 @@ const Navbar = () => {
             </NavLink>
         </NavMenu>
         <div style={{marginLeft:"90px",marginTop:"30px"}} > 
-        <NavBtnLink to='/Login' >Login</NavBtnLink>
+        <NavBtnLink to='/login' >Login</NavBtnLink>
         <NavBtnLink to='/sign-up' >Sign Up</NavBtnLink> </div>
       </Nav>
     </>
