@@ -30,6 +30,8 @@ const SignUp = () => {
 
         <button class="register">SIGN UP</button>
     </form>
+    <br/><br/><br/>
+
 </div>
   );
 };

@@ -230,7 +230,7 @@ export const NavBtnLinkk = styled(Link)`
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-    background: #4a4e69;
+    background: #5c9ca4;
   padding: 7px;
   color: #ffffff;
   outline: none;

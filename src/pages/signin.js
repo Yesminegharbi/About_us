@@ -3,7 +3,7 @@ const Signin=()=>
 {
     return(
         <div className='signin'>
-    <form>
+        <form>
         <fieldset>
             <h3>SIGN IN</h3>
 
@@ -15,14 +15,15 @@ const Signin=()=>
             <button class="lost">Lost Password ?</button>
             <button class="sign">SIGN IN</button>
             <p>
-                <h5>Need assistance ? please contact our 
+                <h5>Need assistance ?  please contact our  
                     <a href=""> 
-                    Support team
+                     SUPPORT TEAM
                     </a>
                     
                     </h5>
             </p>
         </fieldset>
+        
     </form>
 </div>
 

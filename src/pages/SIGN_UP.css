@@ -2,7 +2,7 @@
 
 .signup {
     background-image: url(../assets/5827.jpg);
-    height: 120vh;
+    height: 140vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +40,7 @@
 
 form {
     margin-top: 10%;
-    height: 600px;
+    height: fit-content;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.13);
     position: absolute;
@@ -56,7 +56,7 @@ form {
 
 form * {
     font-family: 'Poppins', sans-serif;
-    color: #000000;
+    color: #ffffff;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
