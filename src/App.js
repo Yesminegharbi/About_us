@@ -17,18 +17,18 @@ import ImageGallaryComponentChair from './pages/ImageSliderChair';
 import ImageGallaryComponentTable from './pages/ImageSlider-Table';
 import Signin from './pages/signin';
 import SignUp from './pages/signup'
-import Tabarka from 'C:/Users/lenovo/About_us/src/pages/tbarka';
-import Images from "C:/Users/lenovo/About_us/src/pages/images.js";
-import "C:/Users/lenovo/About_us/src/pages/page2.css";
-import Wether from "C:/Users/lenovo/About_us/src/pages/wether.js";
-import Drahem from "C:/Users/lenovo/About_us/src/pages/drahem.js"
-import Jendouba from 'C:/Users/lenovo/About_us/src/pages/Jendouba';
-import Haouaria from 'C:/Users/lenovo/About_us/src/pages/Haouaria';
-import Zaghouen from 'C:/Users/lenovo/About_us/src/pages/zaghouen';
-import Bizerte from 'C:/Users/lenovo/About_us/src/pages/bizerte';
-import Nabeul from 'C:/Users/lenovo/About_us/src/pages/nabeul';
-import Beja from 'C:/Users/lenovo/About_us/src/pages/beja';
-import Tozeur from 'C:/Users/lenovo/About_us/src/pages/Tozeur';
+import Tabarka from './pages/tbarka';
+import Images from "./pages/images.js";
+import "./pages/page2.css";
+import Wether from "./pages/wether.js";
+import Drahem from "./pages/drahem.js"
+import Jendouba from './pages/Jendouba';
+import Haouaria from './pages/Haouaria';
+import Zaghouen from './pages/zaghouen';
+import Bizerte from './pages/bizerte';
+import Nabeul from './pages/nabeul';
+import Beja from './pages/beja';
+import Tozeur from './pages/Tozeur';
 import {Link } from 'react-router-dom';
 function App() {
     return (

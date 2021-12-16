@@ -86,6 +86,8 @@ class ImageGallaryComponentChair extends React.Component {
                 </div>
                 <div style={{paddingTop:"50px",paddingLeft:"15%"}} className='buy-pannel'>
                     <h3 style={{textAlign:"center"}} className='title'>Camping Chair </h3>
+                    <h3 style={{textAlign:"center"}} className='price'>200dt </h3>
+
                     <div style={{textAlign:"center"}}  className='QuantityPicker'>
                     <QuantityPicker min={0} />
                     </div>

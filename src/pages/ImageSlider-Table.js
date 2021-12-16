@@ -87,6 +87,8 @@ class ImageGallaryComponentTable extends React.Component {
                 </div>
                 <div style={{paddingTop:"150px"}} className='buy-pannel'>
                     <h3 style={{textAlign:"center"}} className='title'>Camping Table </h3>
+                    <h3 style={{textAlign:"center"}} className='price'>150dt </h3>
+
                     <div style={{textAlign:"center"}} className='QuantityPicker'>
                     <QuantityPicker min={0} />
                     </div>

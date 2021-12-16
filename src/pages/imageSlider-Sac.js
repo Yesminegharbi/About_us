@@ -79,7 +79,10 @@ class ImageGallaryComponentSac extends React.Component {
                 </div>
                 </div>
                 <div style={{paddingTop:"150px"}} className='buy-pannel'>
+
                     <h3 style={{textAlign:"center"}} className='title'>Camping Bag </h3>
+                    <h3 style={{textAlign:"center"}} className='price'>90dt </h3>
+
                     <div style={{textAlign:"center"}} className='QuantityPicker'>
                     <QuantityPicker min={0} />
                     </div>

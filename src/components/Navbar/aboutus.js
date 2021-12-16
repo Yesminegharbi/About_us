@@ -28,9 +28,11 @@ const About_us = () => {
   <h3 style={{fontFamily: 'Poppins',fontSize:'29px',
   color:"white",textAlign:"center",paddingRight:'0px'}}>Our story</h3>
   <br/>
-  <div style={{fontFamily: 'Poppins',fontSize:'12px',backgroundColor: "white",
+  <div style={{fontFamily: 'Poppins',fontSize:'15px',backgroundColor: "white",
     color: "black",opacity:"0.5",width:"900px",margin:"auto",textAlign:"center",padding:"5px",borderRadius:"12px",paddingRight:'0px'}}>
-      <p>the story of three engineers <br/> the story of three engineers <br/>the story of three engineers<br/> the story of three engineers <br/>the story of three engineers</p>
+      <p>Campy was created to provide a simple modern way to plan campings in Tunisia! <br/> A leading destination for discovering,exploring campsites in all regions of Tunisia <br/>The site guides the campers to plan their outdoor adventure by providing them the most gorgeous
+       campsites in our beautiful country a way to buy the necessary materials and of course
+        few tips and tricks to enrich your experience <br/> This project was done by a group of Engineering students in the Higher School of Communication Tunis <br/>Our motivated and enthusiastic team is on a mission to make your next camping as easy as possible</p>
   </div>
   <br/>
   <h2 style={{fontFamily: 'Poppins',fontSize:'29px',
