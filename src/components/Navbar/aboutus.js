@@ -46,7 +46,7 @@ const About_us = () => {
     <NavBtnLinkk to='#' >Contact</NavBtnLinkk>
   </div> </div>
   </Column1>
-  <Column1 style={{paddingLeft:"120%",}}>
+  <Column1 style={{paddingLeft:"170%",}}>
   <div class="container">
   <img  class="image" style={{ margin:"auto",borderRadius:"100px",width:"200px"}} src="https://scontent.ftun16-1.fna.fbcdn.net/v/t1.6435-1/c145.0.320.320a/p320x320/137201969_3752873631437488_3233221631229005522_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=a2aIYv2A0OcAX_3kY7i&_nc_ht=scontent.ftun16-1.fna&oh=c8bfb4c1f8701fbbd791e0d683be6b26&oe=61BDB3CB"/>
   <div class="overlay">
@@ -54,7 +54,7 @@ const About_us = () => {
     <NavBtnLinkk to='#' >Contact</NavBtnLinkk>
   </div> </div>
   </Column1>
-  <Column1 style={{paddingLeft:"240%",}}>
+  <Column1 style={{paddingLeft:"340%",}}>
   <div class="container">
   <img class="image" style={{ margin:"auto",borderRadius:"100px",width:"200px"}} src="https://scontent.ftun16-1.fna.fbcdn.net/v/t1.6435-9/151777125_3340586902714339_2221549848304229317_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=174925&_nc_ohc=M6e96OL2GiwAX-fsyXm&_nc_oc=AQlanlj9JBa6xgO0ESK1RGYV3CwF2-Q7dj1Z3y8BNQ6Z0Pd4I5NBWrpsksPBibVbQRE&_nc_ht=scontent.ftun16-1.fna&oh=64d682f367e286e071a6a75f2528e79a&oe=61D1DF6B"/>
   <div class="overlay">
@@ -63,7 +63,7 @@ const About_us = () => {
 
   </div> </div>
   </Column1>
-  <Column1 style={{paddingLeft:"360%",}}>
+  <Column1 style={{paddingLeft:"510%",}}>
   <div class="container">
   <img class="image" style={{ margin:"auto",borderRadius:"100px",width:"200px"}} src="https://scontent.ftun1-2.fna.fbcdn.net/v/t1.15752-9/258467784_383717603541981_3449941357528514710_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=ae9488&_nc_ohc=s3iSduMNAu4AX8mFf4w&tn=m7XxOqz4eNJssKZw&_nc_ht=scontent.ftun1-2.fna&oh=623463ee05cdee25d9a0666fa15a01eb&oe=61BFDC0C"/>
   <div class="overlay">

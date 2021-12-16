@@ -11,7 +11,7 @@ import {
     return (
       <Box>
           <Row>
-          <img style={{ maxWidth:"70px"}} src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/256669699_430020825139081_1109894578405239504_n.png?_nc_cat=101&ccb=1-5&_nc_sid=aee45a&_nc_ohc=JvzNL-in3dkAX8e36tA&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=b82e769d0a517f4d3473a301a7861c40&oe=61B916C6"/>
+          <img style={{maxWidth:"70px"}} src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/256669699_430020825139081_1109894578405239504_n.png?_nc_cat=101&ccb=1-5&_nc_sid=aee45a&_nc_ohc=JvzNL-in3dkAX8e36tA&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=b82e769d0a517f4d3473a301a7861c40&oe=61B916C6"/>
 
             <Column>
               <FooterLink href="#">Home</FooterLink>
@@ -20,16 +20,16 @@ import {
               <FooterLink href="#">Location</FooterLink>
             </Column>
             <Column>
-            <a style={{   marginTop:"50%",marginLeft:"50%",marginRight:"50%"}}href="#" class="fa fa-facebook"></a>
+            <a style={{   paddingLeft:"100px",marginTop:"50%",marginLeft:"100%",marginRight:"50%"}}href="#" class="fa fa-facebook"></a>
             </Column>
             <Column>
-            <a style={{   marginTop:"50%",marginLeft:"50%",marginRight:"50%"}}href="#" class="fa fa-twitter"></a>
+            <a style={{   marginTop:"50%",paddingLeft:"100px",marginLeft:"100%",marginRight:"50%"}}href="#" class="fa fa-twitter"></a>
             </Column>
             <Column>
-            <a style={{   marginTop:"50%",marginLeft:"50%",marginRight:"50%" }}href="#" class="fa fa-instagram"></a>
+            <a style={{   marginTop:"50%",marginLeft:"100%",paddingLeft:"100px",marginRight:"50%" }}href="#" class="fa fa-instagram"></a>
             </Column>
             <Column>
-            <a style={{   marginTop:"50%",marginLeft:"50%",marginRight:"50%"}}  href="#" class="fa fa-google"></a>
+            <a style={{   paddingLeft:"100px",marginTop:"50%",marginLeft:"100%",marginRight:"50%"}}  href="#" class="fa fa-google"></a>
             </Column>
             <Column>
               <FooterLink href="#">Languages</FooterLink>

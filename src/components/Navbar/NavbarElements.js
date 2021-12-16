@@ -2,15 +2,16 @@ import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 export const Nav = styled.nav`
-  background: #a7b9bb;
+
+  background-color:#17646d;
   border-radius: 3px;
   height: 80px;
   display: flex;
   position: fixed;
   top: 0;
-  opacity:0.85;
   left: 0;
   right:0;
+  opacity:0.8;
     justify-content: stretch;
     padding: 0.2rem calc((100vw - 1000px) / 2);
   z-index: 12;
@@ -108,7 +109,8 @@ export const Box = styled.div`
   padding: 50px 60px;
   border-radius: 3px;
   height: 100px;
-  background: #a7b9bb;
+  background: #17646d;
+  opacity:0.8;
   left: 0;
   right:0;
   @media (max-width: 1000px) {
@@ -149,7 +151,7 @@ export const FooterLink = styled.a`
   text-decoration: none;
   font-family: 'Poppins';
   margin-top:50%;
-
+  padding-left:100px;
   &:hover {
       color: #ffffff;
       font-size: 18px;
