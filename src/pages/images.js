@@ -1,6 +1,11 @@
 import {Link } from 'react-router-dom';
 import './images.css'
 import Tabarka from "./tbarka";
+var styles={
+  links: {
+      ":hover": {color: "red", textDecoration: "none"}
+  }
+}
 const Images = () => {
     return ( 
         <div>
@@ -9,24 +14,24 @@ const Images = () => {
         
            <img className="im" src={'https://www.marhba.com/images/Galite.jpg'}   />  
            <div className="label"> 
-           <Link to="/Tabarka" activestyle>
+           <a href="/Tabarka"  style={{textDecoration:'none'}} >
                   TABARKA 
-                </Link>
+                </a>
                 </div>  
         </div>
 
         < div classname="bx">
          <img className="im" src={'https://www.marhba.com/images/hawaria.jpg'}   />
         
-            <div className="label"> <Link to="/Haouaria" activestyle>
+            <div className="label"> <a href="/Haouaria" style={{textDecoration:'none'}}>
                   EL HAOUARIA 
-                </Link>  </div>
+                </a>  </div>
            </div>
    < div classname="bx">
       <img  className="im" src={'https://www.marhba.com/images/alternatif/alternatif2020/Camping_Tunisie_Ain_Kanassira_.jpg'}   />
-      <div className="label"> <Link to="/nabeul" activestyle>
+      <div className="label"> <a href="/nabeul" style={{textDecoration:'none'}}>
                   NABEUL 
-                </Link> </div>
+                </a> </div>
          
    </div>
    </div>
@@ -35,23 +40,23 @@ const Images = () => {
         < div classname="bx">
           
            <img className="im" src={'https://www.marhba.com/images/alternatif/alternatif2020/Camping_Tunisie_Oued_Zen_.jpg'}  />   
-           <div className="label"> <Link to="/drahem" activestyle>
+           <div className="label"> <a href="/drahem" style={{textDecoration:'none'}}>
                   AIN DRAHEM 
-                </Link> </div> 
+                </a> </div> 
         </div>
 
         < div classname="bx">
          <img className="im"  src={'https://www.marhba.com/images/zaghouane-montgne.jpg'}   />
-         <div className="label"> <Link to="/zaghouen" activestyle>
+         <div className="label"> <a href="/zaghouen" style={{textDecoration:'none'}}>
                   ZAGHOUEN 
-                </Link> </div>
+                </a> </div>
             
            </div>
    < div classname="bx">
       <img className="im"  src={'https://www.marhba.com/images/alternatif/alternatif2020/Camping_Tunisie_Sidi_El_Barrak.jpg'}   />
-      <div className="label"> <Link to="/beja" activestyle>
+      <div className="label"> <a href="/beja" style={{textDecoration:'none'}}>
                   BEJA
-                </Link> </div>
+                </a> </div>
          
    </div>
    </div>
@@ -60,23 +65,23 @@ const Images = () => {
         < div classname="bx">
           
            <img  className="im" src={'https://www.marhba.com/images/alternatif/alternatif2020/Camping_Tunisie_Beni_Mtir.jpg'}   />   
-           <div className="label"> <Link to="/jendouba" activestyle>
+           <div className="label"> <a href="/jendouba" style={{textDecoration:'none'}}>
                   JENDOUBA 
-                </Link> </div> 
+                </a> </div> 
         </div>
 
         < div classname="bx">
          <img className="im" src={'https://www.marhba.com/images/alternatif/alternatif2020/capserrat.jpg'}   />
-         <div className="label"> <Link to="/bizerte" activestyle>
+         <div className="label"> <a href="/bizerte" style={{textDecoration:'none'}}>
                   BIZERTE 
-                </Link> </div>
+                </a> </div>
             
            </div>
    < div classname="bx">
       <img  className="im" src={'https://www.voyage-tunisie.info/wp-content/uploads/2017/10/Tamerza-nature-800x500.jpg'}   />
-      <div className="label"> <Link to="/Tozeur" activestyle>
+      <div className="label"> <a href="/Tozeur" style={{textDecoration:'none'}}>
                   TOZEUR 
-                </Link> </div>
+                </a> </div>
          
    </div>
    </div>

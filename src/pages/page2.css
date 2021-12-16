@@ -9,6 +9,9 @@
     
 
 }
+.right-menu a {
+    text-decoration: none;
+}
 
 .dest{
     color:#0f575f;
