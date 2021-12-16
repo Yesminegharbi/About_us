@@ -38,12 +38,22 @@
       bottom: 15em;
       
     }
+    .price
+    {
+      color:#021d20;
+      position: relative;
+      left: 1rem;
+      font-family: poppins;
+      bottom: 18em;
+      
+    }
     .QuantityPicker
     {
         position: relative;
         left: 1rem;
         font-family: poppins;
         bottom: 20rem;
+        
     }
     .title{
       display: block;
